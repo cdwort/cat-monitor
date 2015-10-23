@@ -1,0 +1,18 @@
+{
+  "id": "catmonitor",
+  "api": {
+    "config_vars": [ "CAT_MONITOR_URL" ],
+    "requires": [],
+    "regions": [ "us" ],
+    "password": "8a45ef3601daa66f6cd9021e3079296b",
+    "sso_salt": "87d7cf90f2a829f5b79100d16b8c7072",
+    "production": {
+      "base_url": "https://cat-monitor.herokuapp.com/heroku/resources",
+      "sso_url": "https://cat-monitor.herokuapp.com/sso/login"
+    },
+    "test": {
+      "base_url": "http://localhost:4567/heroku/resources",
+      "sso_url": "http://localhost:4567/sso/login"
+    }
+  }
+}
